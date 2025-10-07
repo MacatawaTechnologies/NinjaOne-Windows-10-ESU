@@ -1,4 +1,9 @@
-# Replace with your actual ESU product key
+# This script installs and activates Windows ESU (Extended Security Updates) using NinjaOne.
+# Requires two NinjaOne script variables:
+#   - ESU Year: dropdown (must match the years listed in $ActivationIDs below)
+#   - ESU Activation Key: text field (customer ESU MAK key)
+
+# Get variables from NinjaOne
 $ESU_MAK = $env:esuActivationKey
 $ESU_Year = $env:esuYear
 
