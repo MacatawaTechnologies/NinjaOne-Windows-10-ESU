@@ -45,7 +45,7 @@ Perfect for **managed service providers (MSPs)** and **IT administrators** autom
       ```
    4. Get the property options
       ```PowerShell
-      NinjaProperty-Options windows10EsuSupport
+      Ninja-Property-Options windows10EsuSupport
       ```
 3. Create the Check script in your NinjaOne Automation Library, be sure to use your drop down GUIDs.
 2. Create the Activation script in your NinjaOne Automation Library.
