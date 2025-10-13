@@ -35,9 +35,9 @@ $esuIds = @(
 # Map known ESU product IDs to their corresponding coverage year. Later years imply earlier years are also licensed.
 # Use `Ninja-Property-Options $ninjaEsuCustomField to determine what your drop down options are.
 $esuCustomValue = [ordered]@{
-  "83d49986-add3-41d7-ba33-87c7bfb5c0fb" = "d1ce2478-2afa-4017-87cb-38f62bb9a986" # Year 3 (2027-2028)
-  "1043add5-23b1-4afb-9a0f-64343c8f3f8d" = "1684bc6e-d2cc-4909-85ca-95123abe0507" # Year 2 (2026-2027)
-  "f520e45e-7413-4a34-a497-d2765967d094" = "81d45a52-cbbf-4007-b4cb-825953cede41" # Year 1 (2025-2026)
+  "83d49986-add3-41d7-ba33-87c7bfb5c0fb" = "<Your Year 3 GUID>" # Year 3 (2027-2028)
+  "1043add5-23b1-4afb-9a0f-64343c8f3f8d" = "<Your Year 2 GUID>" # Year 2 (2026-2027)
+  "f520e45e-7413-4a34-a497-d2765967d094" = "<Your Year 1 GUID>" # Year 1 (2025-2026)
 }
 
 $esuSupportVersion = $null
