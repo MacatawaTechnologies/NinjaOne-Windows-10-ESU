@@ -25,15 +25,15 @@ Perfect for **managed service providers (MSPs)** and **IT administrators** autom
 ## 🧩 Usage Instructions
 
 1. Create a dropdown [device custom field](https://ninjarmm.zendesk.com/hc/en-us/articles/360060920631).
-  - Fieldname `windows10EsuSupport`.
-  - Permissions
-    - Automation: Read/Write
-    - Technician: Read Only
-  - Option Value
-    - Year 1 (2025-2026)
-    - Year 2 (2026-2027)
-    - Year 3 (2027-2028)
-2. Use the NinjaOne CLI to determine what values define each drop-down option.
+   - Fieldname `windows10EsuSupport`.
+   - Permissions
+     - Automation: Read/Write
+     - Technician: Read Only
+   - Option Value
+     - Year 1 (2025-2026)
+     - Year 2 (2026-2027)
+     - Year 3 (2027-2028)
+1. Use the NinjaOne CLI to determine what values define each drop-down option.
   1. Launch a PowerShell session on a managed computer.
   2. Set execution policy.
      ```PowerShell
@@ -47,12 +47,12 @@ Perfect for **managed service providers (MSPs)** and **IT administrators** autom
       ```PowerShell
       Ninja-Property-Options windows10EsuSupport
       ```
-3. Create the Check script in your NinjaOne Automation Library, be sure to use your drop down GUIDs.
-2. Create the Activation script in your NinjaOne Automation Library.
+2. Create the Check script in your NinjaOne Automation Library, be sure to use your drop down GUIDs.
+3. Create the Activation script in your NinjaOne Automation Library.
    - Create the ESU Year drop-down script variable.
      - Year 1 (2025-2026)
      - Year 2 (2026-2027)
      - Year 3 (2027-2028)
    - Create the ESU Activation Key string/text script variable.
-3. **Deploy** the check script to target endpoints or policies at an interval.
-4. **View results** in your designated NinjaOne **custom field**.
+4. **Deploy** the check script to target endpoints or policies at an interval.
+5. **View results** in your designated NinjaOne **custom field**.
