@@ -1,4 +1,4 @@
-# Windows 10 Extended Support Update Scripts for NinjaOne
+# Windows 10 Extended Security Update Scripts for NinjaOne
 
 PowerShell scripts to **install Windows 10 Extended Security Updates (ESU)** and **report update status** directly to a **NinjaOne RMM custom field**.  
 Perfect for **managed service providers (MSPs)** and **IT administrators** automating Windows 10 post–end-of-support management.
